@@ -209,7 +209,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Blazing fast
+           Locura
           </Malleable>
         </div>
         <div className="feature">
@@ -227,7 +227,7 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Always available
+          Disociación
           </Malleable>
         </div>
         <div className="feature">
@@ -245,12 +245,12 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             isActive={isEdit}
             edits={edits}
           >
-            Lighthouse 100
+          Alquimia
           </Malleable>
         </div>
       </div>
       <Malleable as="h2" id="title-2" isActive={isEdit} edits={edits}>
-        This demonstrates a static website generated using{' '}
+        Demo{' '}
         <a target="_blank" rel="noopener" href="https://nextjs.org">
           Next.js'
         </a>{' '}
@@ -291,25 +291,6 @@ function Content({ isEdit, edits }: { isEdit: boolean; edits: FieldEdit[] }) {
             , run:
           </Malleable>
           <br />
-          <Malleable
-            id="explanation-1-pre-curl"
-            as="pre"
-            isActive={isEdit}
-            edits={edits}
-          >
-            curl -sI https://next-preview.vercel.app | grep x-vercel
-          </Malleable>
-          <Malleable
-            id="explanation-1-pre-response"
-            as="pre"
-            className="light"
-            isActive={isEdit}
-            edits={edits}
-          >
-            x-vercel-cache: HIT
-            <br />
-            x-vercel-id: cle1::zzq7g-1604525989923-a33b3946ccee
-          </Malleable>
         </div>
         <Malleable id="explanation-2" isActive={isEdit} edits={edits}>
           When people visit this site, the response always comes instantly from
